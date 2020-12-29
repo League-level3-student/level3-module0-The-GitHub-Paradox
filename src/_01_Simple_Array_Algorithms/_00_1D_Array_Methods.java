@@ -1,10 +1,13 @@
 package _01_Simple_Array_Algorithms;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class _00_1D_Array_Methods {
 	//1. Complete the method so that it returns the sum of all
 	//   of the integers in the array being passed in
 	public static int sumIntArray(int[] values) {
-
+		int[] arr = {1, 2, 3, 4};
+		assertEquals(10,_00_1D_Array_Methods.sumIntArray(arr));
 		return 0;
 	}
 	
